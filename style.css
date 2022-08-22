@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -21,22 +21,34 @@ body {
     background-image: url("/square\ images/colors.png");
 }
 
-#my-cards .cards {
+#my-cards .card {
     position: relative;
     width: 380px;
-    height: 20px;
-
+    height: auto;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: 1s ease;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5);
 }
 
 #my-cards .card:hover {
     transform: scale(1.1);
 }
 
+#my-cards .card:hover img {
+    width: 100%;
+}
+
 #my-cards .card:hover .image {
     /* how bright do you want he image */
--webkit-filter: brightness(50%);
-/* this is the animation takes 1 sec / we must set for all browsers*/
-
+    -webkit-filter: brightness(50%);
+    /* this is the animation takes 1 sec / we must set for all browsers*/
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 #my-cards .middle {
@@ -63,5 +75,3 @@ body {
         transform: scale(1);
     }
 }
-
-*/
