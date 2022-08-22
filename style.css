@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -34,8 +34,8 @@ body {
 
 #my-cards .card:hover .image {
     /* how bright do you want he image */
-    -webkit-filter: brightness(50%);
-    /* this is the animation takes 1 sec / we must set for all browsers*/
+-webkit-filter: brightness(50%);
+/* this is the animation takes 1 sec / we must set for all browsers*/
 
 }
 
@@ -63,3 +63,5 @@ body {
         transform: scale(1);
     }
 }
+
+*/
