@@ -21,3 +21,5 @@ document.getElementsByClassName("article")[1].addEventListener("click", () => {
 document.getElementsByClassName("article")[2].addEventListener("click", () => {
     window.open("https://iamcodefoxx.github.io/Marvel-API/");
 });
+
+// article article article [0] [1] 
